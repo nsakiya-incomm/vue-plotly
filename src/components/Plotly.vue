@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
   directives.resize = require("vue-resize-directive");
 }
 export default {
-  name: "VuePlotly",
+  name: "plotly",
   inheritAttrs: false,
   directives,
   props: {
