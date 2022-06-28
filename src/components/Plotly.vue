@@ -2,7 +2,7 @@
   <div :id="id" v-resize:debounce.100="onResize" />
 </template>
 <script>
-import Plotly from 'plotly.js-dist';
+import Plotly from 'plotly.js';
 import events from "./events.js";
 import methods from "./methods.js";
 import { camelize } from "@/utils/helper";
@@ -12,7 +12,9 @@ if (typeof window !== "undefined") {
   directives.resize = require("vue-resize-directive");
 }
 export default {
+  /* eslint-disable */
   name: "plotly",
+  /* eslint-enable */
   inheritAttrs: false,
   directives,
   props: {

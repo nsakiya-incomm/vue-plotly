@@ -62,7 +62,9 @@ import histogram2D from "./2D-histogram.js";
 import pie from "./pie.js";
 
 export default {
+  /* eslint-disable */
   name: "picker",
+  /* eslint-enable */
   components: {
     editor
   },

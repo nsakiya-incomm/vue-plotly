@@ -15,7 +15,9 @@ import "highlight.js/styles/default.css";
 import "highlight.js/styles/mono-blue.css";
 
 Vue.component("vue-draggable-resizable", VueDraggableResizable);
+/* eslint-disable */
 Vue.component("plotly", Plotly);
+/* eslint-enable */
 
 Vue.use(VueHighlightJS, {
   languages: {
